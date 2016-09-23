@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>My Typical School Day</title>
+
+		<link rel="stylesheet" type="text/css" href="css/w3.css">
+		<link rel="stylesheet" type="text/css" href="css/intro.css">
+
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<script src="js/my-code.js"></script>
+		<script src="js/aboutme.js"></script>
+	</head>
+	<body>
+		
+		<div id="content">
+			<div id="bannerBackground">
+				<div id="banner">
+
+					<img id="bannerPic" src='images/logo_eagle-03.png' width='200px' height ='150px' alt='eaglePic'>
+
+					<h1 class="header">Welcome!</h1>
+
+					<h2 class="header">Website created by John H.</h2>
+					
+					<div class="header">
+						<input id="aboutMeButton" type="button" value="About Me"> 
+					</div>
+					
+					<div class="header">
+						<p id="aboutMeInfo"> I am a sophomore at EHS. Next year I plan on attending school because I have to. </p>
+					</div>
+
+				</div>
+				<br class="floatReset">
+			</div>
+
+			<ul class="w3-navbar w3-card-2 w3-light-grey">
+				<li>
+					<a href="http://192.168.1.100/b1school">Mr. M</a>
+				</li>
+				<li class="w3-dropdown-hover w3-hover-card-4">
+					<a class="w3-hover-card-4" href="#">My Favs <i class="fa fa-caret-down"> </i></a>
+					<div class="w3-dropdown-content w3-white w3-card-4">
+						<a href="http://www.google.com">Google</a>
+						<a href="#">(future ext link)</a>
+						<a href="#">(future ext link)</a>
+					</div>
+				</li>
+
+				<!--Centennial -->
+				<li class="w3-dropdown-hover w3-hover-card-4">
+					<a class="w3-hover-card-4" href="http://westada.org/Domain/51">CHS <i class="fa fa-caret-down"> </i></a>
+					<div class="w3-dropdown-content w3-white w3-card-4">
+						<a href="http://192.168.1.108/b1school">Logan W</a>
+						<a href="http://192.168.1.129/b1school">Thea S</a>
+						<a href="http://192.168.1.123/b1school">Porter F</a>
+						<a href="http://192.168.1.101/b1school">Zachary S</a>
+						<a href="http://192.168.1.118/b1school">Dallin D</a>
+						<a href="http://192.168.1.173/b1school">Johnathon N</a>
+						<a href="http://192.168.1.124/b1school">Ben L</a>
+
+					</div>
+				</li>
+
+				<!--Eagle -->
+				<li class="w3-dropdown-hover w3-hover-card-4">
+					<a class="w3-hover-card-4" href="http://westada.org/Domain/54">EHS <i class="fa fa-caret-down"> </i></a>
+					<div class="w3-dropdown-content w3-white w3-card-4">
+						<a href="http://192.168.1.110/b1school">John H</a>
+						<a href="http://192.168.1.175/b1school">Tanner H</a>
+					</div>
+				</li>
+
+				<!--Meridian -->
+				<li class="w3-dropdown-hover w3-hover-card-4">
+					<a class="w3-hover-card-4" href="http://westada.org/Domain/56">MHS<i class="fa fa-caret-down"> </i></a>
+					<div class="w3-dropdown-content w3-white w3-card-4">
+						<a href="http://192.168.1.119/b1school">Kien T</a>
+						<!-- Not done yet -->
+					</div>
+				</li>
+
+				<!--Mountain View -->
+				<li class="w3-dropdown-hover w3-hover-card-4">
+					<a class="w3-hover-card-4" href="http://westada.org/Domain/57">MVHS<i class="fa fa-caret-down"> </i></a>
+					<div class="w3-dropdown-content w3-white w3-card-4">
+						<a href="http://192.168.1.104/b1school">Mason P</a>
+						<a href="http://192.168.1.106/b1school">Joseph M</a>
+						<a href="http://192.168.1.107/b1school">Chase KD</a>
+						<a href="http://192.168.1.113/b1school">Gavin B</a>
+						<a href="http://192.168.1.114/b1school">Justin F</a>
+						<a href="http://192.168.1.213/b1school">Ethan G</a>
+						<a href="http://192.168.1.103/b1school">Austin H</a>
+					</div>
+				</li>
+
+				<!--Rocky Mountain -->
+				<li class="w3-dropdown-hover w3-hover-card-4">
+					<a class="w3-hover-card-4" href="http://westada.org/Domain/59">RMHS <i class="fa fa-caret-down"> </i></a>
+					<div class="w3-dropdown-content w3-white w3-card-4">
+						<a href="http://192.168.1.121/b1school">Michael C</a>
+						<a href="http://192.168.1.122/b1school">Alyse C</a>
+						<a href="http://192.168.1.176/b1school">Ethan A</a>
+						<a href="http://192.168.1.131/b1school">Kyle T</a>
+						<a href="http://192.168.1.120/b1school">Kyle N</a>
+					</div>
+				</li>
+			</ul>
+
+			<p>
+				button clicker
+			</p>
+
+			<div id="money">
+				<p id="moneyCounter">
+					Ur money is here: $0
+				</p>
+			</div>
+
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			
+			<div id="shop">
+				<div id="shopNav">
+					<p id="upgrade"> Upgrades </p>
+					<p id="auto-clicker"> Auto-Clickers </p>
+				</div>
+			</div>
+
+			<!-- JQUERY PART 02 selectors buttons -->
+			<div class="button">
+				<input id="testbutton" type="button" value="click this">
+			</div>
+			<div id="selectors02">
+				<h3 id="clickCounter">This button has been clicked <strong>0</strong> times</h3>
+
+				<img src="images/classSidePicCropped.jpg" alt="classSidePic">
+			</div>
+
+			<div id="slideshow">
+				<div class="w3-content" style="max-width:600px;position:relative">
+
+					<div class="w3-display-container mySlides">
+						<img src="images/ehs_choir_crop.jpg" style="width:100%">
+						<div class="w3-display-bottommiddle w3-large w3-container w3-padding-16 w3-black">
+							Super happy
+						</div>
+					</div>
+
+					<div class="w3-display-container mySlides">
+						<img src="images/Eagle_High_crop.jpg" style="width:100%">
+						<div class="w3-display-bottommiddle w3-large w3-container w3-padding-16 w3-black">
+							woah
+						</div>
+					</div>
+
+					<div class="w3-display-container mySlides">
+						<img src="images/WebDesignClass_crop.jpg" style="width:100%">
+						<div class="w3-display-bottommiddle w3-large w3-container w3-padding-16 w3-black">
+							eyes
+						</div>
+					</div>
+
+					<div class="w3-display-container mySlides">
+						<img src="images/jq_code_crop.jpg" style="width:100%">
+						<div class="w3-display-bottommiddle w3-large w3-container w3-padding-16 w3-black">
+							wow look at that seagull
+						</div>
+					</div>
+
+					<div class="w3-display-container mySlides">
+						<img src="images/EagleHighSpiritGame_crop.jpg" style="width:100%">
+						<div class="w3-display-bottommiddle w3-large w3-container w3-padding-16 w3-black">
+							werid
+						</div>
+					</div>
+
+					<a class="w3-btn-floating w3-hover-dark-grey" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">[</a>
+					<a class="w3-btn-floating w3-hover-dark-grey" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">]</a>
+
+					<script src="js/slideshow01.jss"></script>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>

@@ -1,0 +1,193 @@
+
+body {
+	background: linear-gradient(#DDDDDD , #EEEEEE);
+}
+
+/*
+
+h1 {
+	
+	text-align: center;
+	font-size: 32px;
+	color: #000000;
+	/*
+	text-shadow: 5px 5px 3px black;	
+	
+}
+
+h2 {
+	
+	text-align: center;
+	color: #000000;
+	/*
+	text-shadow: 5px 5px 3px black;	
+	
+	text-shadow: 2px 2px 1px black;
+	
+	display: block;
+	margin: auto;
+}
+
+div {
+	
+	text-align: center;
+	
+	
+	/*
+	display: block;
+	margin: auto;
+	width: 600px;
+	
+	
+}
+
+p {
+	text-align: center;
+}
+
+/* notes (comments) to future self, and co-developers on a team 
+ * used a nested div (div followed by another div)
+ * so had to usse width and height
+ * to align my boxes
+*/
+
+/* classes */
+.header {
+	color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+}
+
+
+.button {
+	width: 50px;
+    margin: auto;
+}
+
+.floatReset {
+	clear: both;
+}
+
+/* ids */
+
+/*
+#slideshow {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #000000;
+	
+	background-color: #FFFFFF;
+	padding: 5px;
+	width: 600px;
+	box-shadow: 8px 8px 8px #DDDDDD;
+	margin: auto;
+}
+
+/*
+#greenback {
+	background-color: #00ff66;
+	color: #000000;
+}
+*/
+
+#banner {
+	/*
+	background-color: #EEEEEE;*/
+	/*background: linear-gradient(#DDDDDD , #EEEEEE); */
+	font-family: "Times New Roman", Times, serif;
+	
+	width: 100%;
+	height: 100%;
+	/*margin-left: 15px*/
+}
+
+#bannerPic {
+    float: right;
+    margin: 0px 20px 10px 10px;
+    padding: 2px;
+    width: 110px;
+	height: 110px;
+	background-color: #44CC44;
+	
+    
+    box-shadow: 8px 8px 8px #DDDDDD;
+    border-style: groove;
+    border-width: 5px;
+    border-color: #44CC44;;
+    
+}
+
+#bannerBackground {
+	background: linear-gradient(#DDDDDD , #EEEEEE);
+	
+}
+/*
+#favPic {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #000000;
+	
+	background-color: #000000;
+	padding: 0px;
+	width: 50%;
+	box-shadow: 8px 8px 8px #DDDDDD;
+	margin: auto;
+}
+*/
+
+#aboutMeButton {
+	margin: auto;
+	
+	background-color: #FFFFFF;
+	font-size: 1.5em
+	color: #FFFFFF;
+	text-decoration: bold;
+	border-radius: 12px;
+	box-shadow: 8px 8px 8px #DDDDDD;
+}
+
+#aboutMeInfo {
+}
+
+#content {
+	background: #FFFFFF;
+}
+
+#money {
+	margin: auto;
+}
+
+
+#moneyCounter {
+	background-color: #33cc33;
+	color: #FFFFFF;
+	font-size: 200%;
+	
+	box-shadow: 8px 8px 8px #DDDDDD;
+	padding: 20;
+	width: 500px;
+	
+}
+
+#testbutton {
+	background-color: #00BCD4
+	
+	font-size: 2.2em;
+	box-shadow: 5px, 5px, 5px, #111111;
+	
+}
+
+#clickCounter {
+	text-align: center;
+}
+
+#shopNav {
+	width: 100px; 
+	height: 25px;
+	background-color: #00BCD4
+}
+
+#slideshow {
+	
+}
+
