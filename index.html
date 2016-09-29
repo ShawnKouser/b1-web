@@ -11,25 +11,30 @@
 		<script src="js/jquery-3.1.0.min.js"></script>
 		<script src="js/my-code.js"></script>
 		<script src="js/aboutme.js"></script>
+		
 	</head>
 	<body>
-		
+
 		<div id="content">
 			<div id="bannerBackground">
 				<div id="banner">
 
 					<img id="bannerPic" src='images/logo_eagle-03.png' width='200px' height ='150px' alt='eaglePic'>
 
-					<h1 class="header">Welcome!</h1>
+					<h1 class="mouseChange">Welcome!</h1>
+					<h2 class="mouseChange">Website created by John H.</h2>
 
-					<h2 class="header">Website created by John H.</h2>
-					
 					<div class="header">
-						<input id="aboutMeButton" type="button" value="About Me"> 
+						<input id="aboutMeButton" type="button" value="About Me">
 					</div>
-					
-					<div class="header">
-						<p id="aboutMeInfo"> I am a sophomore at EHS. Next year I plan on attending school because I have to. </p>
+
+					<div class="center" id="aboutMeInfo">
+						<p>
+							I am a sophomore at EHS. Next year I plan on attending school because I have to.
+						</p>
+
+						<iframe width="420" height="315" src="https://www.youtube.com/embed/CfuIBJtO8Ko"></iframe>
+
 					</div>
 
 				</div>
@@ -69,7 +74,7 @@
 					<a class="w3-hover-card-4" href="http://westada.org/Domain/54">EHS <i class="fa fa-caret-down"> </i></a>
 					<div class="w3-dropdown-content w3-white w3-card-4">
 						<a href="http://192.168.1.110/b1school">John H</a>
-						<a href="http://192.168.1.175/b1school">Tanner H</a>
+						<a href="http://192.168.1.191/b1school">Tanner H</a>
 					</div>
 				</li>
 
@@ -125,11 +130,52 @@
 			<br>
 			<br>
 			<br>
-			
+
 			<div id="shop">
 				<div id="shopNav">
-					<p id="upgrade"> Upgrades </p>
-					<p id="auto-clicker"> Auto-Clickers </p>
+					<p id="upgrade">
+						Upgrades
+					</p>
+					<p id="auto-clicker">
+						Auto-Clickers
+					</p>
+				</div>
+
+				<div id="shopInventory">
+					<div id="allUpgrades">
+						<p class="upgradeItem">
+							+1 cookies/click | $5
+						</p>
+						<p class="upgradeItem">
+							+5 cookie/click | $20
+						</p>
+						<p class="upgradeItem">
+							+10 cookie/click | $50
+						</p>
+						<p class="upgradeItem">
+							+15 cookie/click | $75
+						</p>
+						<p class="upgradeItem">
+							+20 cookie/click | $500
+						</p>
+					</div>
+					<div id="allAutoClickers">
+						<p class="autoClickerItem">
+							+1 cookies/sec | $5
+						</p>
+						<p class="autoClickerItem">
+							+5 cookie/sec | $20
+						</p>
+						<p class="autoClickerItem">
+							+10 cookie/sec | $50
+						</p>
+						<p class="autoClickerItem">
+							+15 cookie/sec | $75
+						</p>
+						<p class="autoClickerItem">
+							+20 cookie/sec | $500
+						</p>
+					</div>
 				</div>
 			</div>
 
@@ -147,9 +193,9 @@
 				<div class="w3-content" style="max-width:600px;position:relative">
 
 					<div class="w3-display-container mySlides">
-						<img src="images/ehs_choir_crop.jpg" style="width:100%">
+						<img src="images/debateStuff_crop.JPG" style="width:100%">
 						<div class="w3-display-bottommiddle w3-large w3-container w3-padding-16 w3-black">
-							Super happy
+							i debate
 						</div>
 					</div>
 
@@ -161,33 +207,63 @@
 					</div>
 
 					<div class="w3-display-container mySlides">
-						<img src="images/WebDesignClass_crop.jpg" style="width:100%">
+						<img src="images/homecoming_cropped.JPG" style="width:100%">
 						<div class="w3-display-bottommiddle w3-large w3-container w3-padding-16 w3-black">
-							eyes
+							homecoming
 						</div>
 					</div>
 
 					<div class="w3-display-container mySlides">
-						<img src="images/jq_code_crop.jpg" style="width:100%">
+						<img src="images/ScreenshotOfCode_crop.png" style="width:100%">
 						<div class="w3-display-bottommiddle w3-large w3-container w3-padding-16 w3-black">
-							wow look at that seagull
+							code for my web dev class
 						</div>
 					</div>
 
 					<div class="w3-display-container mySlides">
 						<img src="images/EagleHighSpiritGame_crop.jpg" style="width:100%">
 						<div class="w3-display-bottommiddle w3-large w3-container w3-padding-16 w3-black">
-							werid
+							school spirit
+						</div>
+					</div>
+
+					<div class="w3-display-container mySlides">
+						<img src="images/TrackPicture_cropped.jpg" style="width:100%">
+						<div class="w3-display-bottommiddle w3-large w3-container w3-padding-16 w3-black">
+							i do track
 						</div>
 					</div>
 
 					<a class="w3-btn-floating w3-hover-dark-grey" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">[</a>
 					<a class="w3-btn-floating w3-hover-dark-grey" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">]</a>
 
-					<script src="js/slideshow01.jss"></script>
 				</div>
 			</div>
+
+			<video class="videoStyle" width="640" height="480" controls>
+				<source src="videos/myTestMovie.ogg" type="video/wmv"> </source>
+				<source src="videos/myTestMovie.ogg" type="video/ogg"> </source>
+				Your browser does not support the video tag.
+			</video>
+
+			<br>
+			<hr>
+			<br>
+
+			<video class="videoStyle" width="640" height="480" controls>
+				<source src="videos/skeet.mp4" type="video/mp4"> 
+				<source src="videos/skeet.webm" type="video/webm"> 
+				<source src="videos/skeet.ogg" type="video/ogg"> 
+				Your browser does not support the video tag.
+			</video>
+
+			<br>
+			<hr>
+			<br>
+
+			<script src="js/slideshow01.jss"></script>
 			
+
 		</div>
 	</body>
 </html>
