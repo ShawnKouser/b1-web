@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Free Web tutorials">
+		<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+		<meta name="author" content="John H">
+
+		<title>My Instructions</title>
+
+		<link href="css/w3.css" rel="stylesheet" type="text/css">
+		<link href="css/instructions.css" rel="stylesheet" type="text/css">
+
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<script src="js/instructions.js"></script>
+
+		<style>
+			h2 {
+				color: #FFFFFF;
+				position: relative;
+				background-color: #009688;
+			}
+
+			#jqhtml {
+				background-color: yellow;
+			}
+		</style>
+
+	</head>
+	<body>
+
+		<div id="header">
+			<h1> Breathing: The Guide! (click me)</h1>
+			<h4> (click me for the instructions)</h4>
+		</div>
+
+		<div id="page">
+
+			<h2> How to breath </h2>
+			<h3> ... so u don't die ... </h3>
+
+			<div id="stepGuide">
+				<h5 class="stepGuideMenu" id="stepGuideTitle"> The step-by-step <span style="color: yellow;"> guide </span> </h4>
+				<div id="stepGuideSteps">
+					<h5 class="stepGuideMenu" id="stepGuideFirst"><span class="stepNumber"> 1. </span> Go to the store and buy altoids </h4> <h5 class="stepGuideMenu" id="stepGuideSecond"><span class="stepNumber"> 2. </span> Eat the altoids </h4> <h5 class="stepGuideMenu" id="stepGuideThird"><span class="stepNumber"> 3. </span> Buy more altoids </h4>
+				</div>
+			</div>
+
+			<br>
+			<hr>
+			<br>
+
+			<ul class="w3-navbar w3-card-2 w3-light-grey">
+				<li>
+					<a href="http://192.168.1.100/b1instructions">Mr. M</a>
+				</li>
+				<li class="w3-dropdown-hover w3-hover-card-4">
+					<a class="w3-hover-card-4" href="#">My Favs <i class="fa fa-caret-down"> </i></a>
+					<div class="w3-dropdown-content w3-white w3-card-4">
+						<a href="http://www.google.com">Google</a>
+						<a href="#">(future ext link)</a>
+						<a href="#">(future ext link)</a>
+					</div>
+				</li>
+
+				<!--Centennial -->
+				<li class="w3-dropdown-hover w3-hover-card-4">
+					<a class="w3-hover-card-4" href="http://westada.org/Domain/51">CHS <i class="fa fa-caret-down"> </i></a>
+					<div class="w3-dropdown-content w3-white w3-card-4">
+						<a href="http://192.168.1.108/b1instructions">Logan W</a>
+						<a href="http://192.168.1.129/b1instructions">Thea S</a>
+						<a href="http://192.168.1.123/b1instructions">Porter F</a>
+						<a href="http://192.168.1.101/b1instructions">Zachary S</a>
+						<a href="http://192.168.1.118/b1instructions">Dallin D</a>
+						<a href="http://192.168.1.173/b1instructions">Johnathon N</a>
+						<a href="http://192.168.1.124/b1instructions">Ben L</a>
+
+					</div>
+				</li>
+
+				<!--Eagle -->
+				<li class="w3-dropdown-hover w3-hover-card-4">
+					<a class="w3-hover-card-4" href="http://westada.org/Domain/54">EHS <i class="fa fa-caret-down"> </i></a>
+					<div class="w3-dropdown-content w3-white w3-card-4">
+						<a href="http://192.168.1.110/b1instructions">John H</a>
+						<a href="http://192.168.1.191/b1instructions">Tanner H</a>
+					</div>
+				</li>
+
+				<!--Meridian -->
+				<li class="w3-dropdown-hover w3-hover-card-4">
+					<a class="w3-hover-card-4" href="http://westada.org/Domain/56">MHS<i class="fa fa-caret-down"> </i></a>
+					<div class="w3-dropdown-content w3-white w3-card-4">
+						<a href="http://192.168.1.119/b1instructions">Kien T</a>
+						<!-- Not done yet -->
+					</div>
+				</li>
+
+				<!--Mountain View -->
+				<li class="w3-dropdown-hover w3-hover-card-4">
+					<a class="w3-hover-card-4" href="http://westada.org/Domain/57">MVHS<i class="fa fa-caret-down"> </i></a>
+					<div class="w3-dropdown-content w3-white w3-card-4">
+						<a href="http://192.168.1.104/b1instructions">Mason P</a>
+						<a href="http://192.168.1.106/b1instructions">Joseph M</a>
+						<a href="http://192.168.1.107/b1instructions">Chase KD</a>
+						<a href="http://192.168.1.113/b1instructions">Gavin B</a>
+						<a href="http://192.168.1.114/b1instructions">Justin F</a>
+						<a href="http://192.168.1.213/b1instructions">Ethan G</a>
+						<a href="http://192.168.1.103/b1instructions">Austin H</a>
+					</div>
+				</li>
+
+				<!--Rocky Mountain -->
+				<li class="w3-dropdown-hover w3-hover-card-4">
+					<a class="w3-hover-card-4" href="http://westada.org/Domain/59">RMHS <i class="fa fa-caret-down"> </i></a>
+					<div class="w3-dropdown-content w3-white w3-card-4">
+						<a href="http://192.168.1.121/b1instructions">Michael C</a>
+						<a href="http://192.168.1.122/b1instructions">Alyse C</a>
+						<a href="http://192.168.1.176/b1instructions">Ethan A</a>
+						<a href="http://192.168.1.131/b1instructions">Kyle T</a>
+						<a href="http://192.168.1.120/b1instructions">Kyle N</a>
+					</div>
+				</li>
+			</ul>
+
+			<br>
+			<hr>
+			<br>
+
+			<div id="clickPictures">
+				<h5> Picture 1: Big Air on my snowboard! </h5>
+				<img src="images/snowboard_sequence_1_600x450.png" alt="snowboard 01">
+
+				<h5 id="clickforpic02"> Click to see picture #2 </h5>
+
+			</div>
+			
+			<br>
+
+			<div id="centerStills">
+				<img src="images/snowboard_sequence_final600x450.png"/>
+
+				<img src="images/snowboard.gif" alt="snowboard gif"
+			</div>
+			
+			<br>
+			<hr>
+			<br>
+			
+			<div>
+				<img src="images/GimpLayers.png" alt="GimpLayers">
+			</div>
+			<br>
+			<hr>
+			<br>
+
+		</div>
+
+	</body>
+</html>
+
+body {
+	
+	background-color: #EEEEEE;
+	
+	background-image: url("../images/chainedTextureWhittened.JPG");
+	background-repeat: repeat;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.5em;
+	color: #FF0000;
+
+}
+
+h4 {
+	text-align: center;
+}
+
+/*            Classes                 */
+
+.imgCenter {
+	display: block;
+	margin: auto;
+	width: 70%;
+	
+	border-radius: 5px;
+}
+
+
+/*            IDs                 */
+
+#header {
+	background-color: #EEEEEE;
+	
+	padding: 10px;
+	
+	box-shadow: 0px 20px 40px #DDDDDD;
+}
+
+#page {
+	background-color: #EEEEEE;
+	width: 80%;
+	height: 1200px;
+	
+	margin: auto;
+	padding: 20px;
+	
+	box-shadow: 0px 0px 40px #DDDDDD;
+	border-radius: 20px;
+	
+}
+
+#clickPictures {
+	margin: auto;
+	width: 60%;
+	
+	background-color: #00FFFF;
+	border: 3px solid green;
+	padding: 10px;
+	
+	text-align: center;
+	box-shadow: 0px 20px 40px #DDDDDD;
+	
+}
+/*            Step Guide                 */
+
+.stepNumber {
+	font-weight: bold;
+}
+
+#stepGuide {
+	background-color: #AABBCC;
+	
+	padding: 0px 2px 0px 2px;
+}
+
+#stepGuideTitle {
+	font-weight: bold;
+	font-size: 20px;
+	
+	color: #FFFFFF;
+}
+
+#stepGuideSteps {
+	background-color: #BBCCDD;
+}
+
+var shopItems = []
+
+$("document").ready(function() {
+	
+	$("h4").hide();
+	
+	
+	$("h1").click(function() {
+		$("h4").slideToggle(1000);
+		
+		$("h2").animate({
+			// for font size, you can also use hide show or toggle
+			// ex: "font-size":"toggle"
+			//"font-size" : "3em",
+			
+			"font-size":"toggle",
+			"width" : "45%",
+			"left" : "+=200px" 
+
+		}, 1000, function() {
+			
+			$("h3").fadeToggle(1000);
+			
+			
+			
+		});
+	});
+	
+	$("#stepGuide").hide();
+	$("#stepGuideFirst").hide();
+	$("#stepGuideSecond").hide();
+	$("#stepGuideThird").hide();
+	
+	
+	$("h4").click(function() {
+		$("#stepGuide").fadeIn(1000);
+		
+		$("#stepGuideFirst").delay(1000).fadeIn(1000);
+		$("#stepGuideSecond").delay(2000).fadeIn(1000);
+		$("#stepGuideThird").delay(3000).fadeIn(1000);
+		
+		//$("#stepGuideFirst").animate({
+		//	"font-size":"toggle";
+		//});
+	});
+	
+	$("#clickforpic02").click(function(){
+		//$("#jqhtml").empty(); //.html("<b style='color:red;'>clicked</b>");
+		$("#clickforpic02").after('<div><img class="imgCenter" id="snow02" src="images/snowboard_sequence_2_600x450.png" alt="pic02"></div>');
+		
+		$("#snow02").after('<h5 id="click03"> Click here to see picture 3 ..</h5>');
+		
+		$("#click03").click(function() {
+			$("#click03").after('<div><img class="imgCenter" id="snow03" src="images/snowboard_sequence_3_600x450.png" alt="pic03"></div>');
+		
+			$("#snow03").after('<h5 id="click04"> Click here to see picture 4 ..</h5>');
+			
+			$("#click04").click(function() {
+				$("#click04").after('<div><img class="imgCenter" id="snow04" src="images/snowboard_sequence_4_600x450.png" alt="pic04"></div>');
+			
+				$("#snow04").after('<h5 id="click05"> Click here to see picture 5 ..</h5>');
+				
+				$("#click05").click(function() {
+					$("#click05").after('<div><img class="imgCenter" id="snow05" src="images/snowboard_sequence_5_600x450.png" alt="pic05"></div>');
+					
+					$("#snow05").after('<h5 id="click06"> Click here to see picture 6 ..</h5>');
+					
+					$("#click06").click(function() {
+						$("#click06").after('<div><img class="imgCenter" id="snow06" src="images/snowboard_sequence_final600x450.png" alt="pic06"></div>');
+						
+						$("#snow06").after('<h5 id="click07"> Click here to see an animated gif ..</h5>');
+						
+						$("#click07").click(function() {
+							$("#click07").after('<div><img class="imgCenter" id="snow07" src="images/snowboard.gif" alt="pic07"></div>');
+	
+						});
+
+					});
+				});
+			});
+		});
+	});
+});
