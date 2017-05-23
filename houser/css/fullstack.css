@@ -1,0 +1,78 @@
+body {
+	background-color: red;
+	background-image: url("../images/Fullstack.jpg");
+	cursor: crosshair;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    background: linear-gradient(rgb(255, 255, 255), rgb(235, 235, 235)); /* Standard syntax */
+}
+
+li {
+    float: left;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+	color: blue;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+#page {
+	background-color: white;
+	width: fit;
+	height: fit;
+	width: 1500px;
+	text-align: center;
+	margin: auto;
+	background: linear-gradient(rgb(255, 255, 255), rgb(230, 230, 230));
+	box-shadow: 5px 5px 20px #BBBBBB;
+	padding: 5px;
+	padding-top: 45px;
+}
+
+#learn {
+	background-color: white;
+	width: fit;
+	height: 300px;
+	width: 1000px;
+	text-align: center;
+	margin: auto;
+	margin-top: 300px;
+	background: linear-gradient(rgb(255, 255, 255), rgb(230, 230, 230));
+	box-shadow: 5px 5px 20px #BBBBBB;
+	padding: 5px;
+	font-size: 500%;
+}
+
+#navigationBar {
+	position:fixed;
+	width: 100%
+}
